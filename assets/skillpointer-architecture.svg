@@ -45,21 +45,23 @@
   <text x="400" y="40" class="text-title" text-anchor="middle">THE CONTEXT PROBLEM</text>
 
   <!-- LEFT: The Old Way (Bloated) -->
-  <g transform="translate(60, 90)" class="float">
-    <rect width="260" height="220" rx="12" fill="#0f172a" class="glow-red" />
-    <text x="130" y="40" class="text-box-title-red" text-anchor="middle">Standard Agent Model</text>
-    
-    <text x="130" y="80" class="text-normal" text-anchor="middle">Base Context Window:</text>
-    <!-- Giant Pulsing Red Number -->
-    <text x="130" y="115" class="text-strong-red pulse" text-anchor="middle">120,540 Tokens</text>
-    
-    <!-- Abstract bars showing overload -->
-    <rect x="40" y="140" width="180" height="8" rx="4" fill="#ef4444" />
-    <rect x="40" y="160" width="160" height="8" rx="4" fill="#ef4444" opacity="0.8"/>
-    <rect x="40" y="180" width="170" height="8" rx="4" fill="#ef4444" opacity="0.6"/>
-    
-    <path d="M 10 210 L 250 210" stroke="#ef4444" stroke-width="4" stroke-linecap="round" opacity="0.4" />
-    <text x="130" y="198" class="text-small" fill="#f87171" text-anchor="middle">Slow, Expensive &amp; Distracted</text>
+  <g transform="translate(60, 90)">
+    <g class="float">
+      <rect width="260" height="220" rx="12" fill="#0f172a" class="glow-red" />
+      <text x="130" y="40" class="text-box-title-red" text-anchor="middle">Standard Agent Model</text>
+      
+      <text x="130" y="80" class="text-normal" text-anchor="middle">Base Context Window:</text>
+      <!-- Giant Pulsing Red Number -->
+      <text x="130" y="115" class="text-strong-red pulse" text-anchor="middle">120,540 Tokens</text>
+      
+      <!-- Abstract bars showing overload -->
+      <rect x="40" y="140" width="180" height="8" rx="4" fill="#ef4444" />
+      <rect x="40" y="160" width="160" height="8" rx="4" fill="#ef4444" opacity="0.8"/>
+      <rect x="40" y="180" width="170" height="8" rx="4" fill="#ef4444" opacity="0.6"/>
+      
+      <path d="M 10 210 L 250 210" stroke="#ef4444" stroke-width="4" stroke-linecap="round" opacity="0.4" />
+      <text x="130" y="198" class="text-small" fill="#f87171" text-anchor="middle">Slow, Expensive &amp; Distracted</text>
+    </g>
   </g>
 
   <!-- MIDDLE: The Divider -->
@@ -68,24 +70,26 @@
   <text x="400" y="206" class="text-vs" text-anchor="middle">VS</text>
 
   <!-- RIGHT: SkillPointer (Optimized) -->
-  <g transform="translate(480, 90)" class="float-delay">
-    <rect width="260" height="220" rx="12" fill="#0f172a" class="glow-blue" />
-    
-    <text x="130" y="40" class="text-box-title-blue" text-anchor="middle">SkillPointer Architecture</text>
-    
-    <text x="130" y="80" class="text-normal" text-anchor="middle">Base Context Window:</text>
-    <!-- Tiny Blue Number -->
-    <text x="130" y="115" class="text-strong-blue" text-anchor="middle">85 Tokens</text>
-    
-    <!-- The Pointer abstraction -->
-    <rect x="40" y="140" width="180" height="34" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
-    <text x="130" y="162" class="text-small" text-anchor="middle">10 Dynamic Category Pointers</text>
+  <g transform="translate(480, 90)">
+    <g class="float-delay">
+      <rect width="260" height="220" rx="12" fill="#0f172a" class="glow-blue" />
+      
+      <text x="130" y="40" class="text-box-title-blue" text-anchor="middle">SkillPointer Architecture</text>
+      
+      <text x="130" y="80" class="text-normal" text-anchor="middle">Base Context Window:</text>
+      <!-- Tiny Blue Number -->
+      <text x="130" y="115" class="text-strong-blue" text-anchor="middle">85 Tokens</text>
+      
+      <!-- The Pointer abstraction -->
+      <rect x="40" y="140" width="180" height="34" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+      <text x="130" y="162" class="text-small" text-anchor="middle">10 Dynamic Category Pointers</text>
 
-    <!-- Data extraction arrow -->
-    <path d="M 130 174 L 130 195" stroke="#38bdf8" stroke-width="2" fill="none" class="dash-anim" />
-    <polygon points="126,192 134,192 130,198" fill="#38bdf8" />
-    
-    <!-- Hidden Vault abstraction -->
-    <text x="130" y="210" font-family='"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace' font-size="14" font-weight="bold" fill="#38bdf8" text-anchor="middle">2,000+ Skills in Vault</text>
+      <!-- Data extraction arrow -->
+      <path d="M 130 174 L 130 195" stroke="#38bdf8" stroke-width="2" fill="none" class="dash-anim" />
+      <polygon points="126,192 134,192 130,198" fill="#38bdf8" />
+      
+      <!-- Hidden Vault abstraction -->
+      <text x="130" y="210" font-family='"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace' font-size="14" font-weight="bold" fill="#38bdf8" text-anchor="middle">2,000+ Skills in Vault</text>
+    </g>
   </g>
 </svg>
